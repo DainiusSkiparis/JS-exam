@@ -19,3 +19,15 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30, hasDog: false },
   { id: '9', name: 'Daniel Cane', age: 51, hasDog: true },
 ];
+
+function filterDogOwners(obj) {
+  return obj.filter(el => el.hasDog === true).map(el => el.name);
+}
+function filterAdults(obj) {
+  return obj.filter(el => el.age >= 18).map(el => el.name);
+}
+
+console.log("Vartotojai kurie turi augintinį:");
+console.log(filterDogOwners(users))
+console.log("Vartotojai kurie yra pilnamečiai:")
+console.log(filterAdults(users));

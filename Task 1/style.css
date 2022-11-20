@@ -63,3 +63,9 @@ form {
     font-size: 2em;
   }
 }
+
+.answer {
+  text-align: center;
+  font-size: 2em;
+  color: brown;
+}
