@@ -24,7 +24,7 @@ class Movie {
     }
 }
 let t = prompt("Enter movie title:")
-while (!t || t === null) {
+while (!t) {
     t = prompt("Enter movie title:")
 }
 let d = prompt("Enter movie director:")

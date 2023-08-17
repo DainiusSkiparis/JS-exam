@@ -21,10 +21,10 @@ const users = [
 ];
 
 function filterDogOwners(obj) {
-  return obj.filter(el => el.hasDog === true).map(el => el.name);
+  return obj.filter(el => el.hasDog === true);
 }
 function filterAdults(obj) {
-  return obj.filter(el => el.age >= 18).map(el => el.name);
+  return obj.filter(el => el.age >= 18);
 }
 
 console.log("Vartotojai kurie turi augintinį:");
