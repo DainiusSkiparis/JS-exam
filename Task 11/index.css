@@ -1,0 +1,17 @@
+/* Style for the delete buttons */
+.delete-button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for table rows */
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
